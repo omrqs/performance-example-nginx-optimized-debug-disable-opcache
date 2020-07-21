@@ -1,0 +1,66 @@
+###> symfony/framework-bundle ###
+.env
+/public/bundles/
+/var/
+**/.var/
+**/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+## Symfony
+bin/*
+!bin/console
+!bin/react
+src/.bootstrap*
+*.log
+tests/_output/*
+tests/_data/*
+tests/_support/*
+
+## General
+composer.phar
+tmp
+*.mp4
+*.mp3
+*.DS_Store
+*.swp
+*.out
+
+## IDE files to ignore
+nbproject/
+.idea/
+*.tmproj
+*.sublime*
+.project
+.settings
+.vscode
+
+## Documents backup and exports
+*.bak
+*.php~
+*.yml~
+
+## Fabric temp
+*.pyc
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+bin/*phpunit
+###< symfony/phpunit-bridge ###
+
+*.pid
+core
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> php code sniffer ###
+.php_cs.cache
+###< php code sniffer ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php_cs
+/.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
